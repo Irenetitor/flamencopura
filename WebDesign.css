@@ -1,0 +1,98 @@
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    color: rgba(237, 237, 233, 0.986);
+    margin: 1px 1px;
+    font-size: 95px;
+    text-shadow: 4px 5px 0 #000;
+}
+
+header {
+    background-image: url("Images/Flamenco.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    display: flex;
+}
+
+table,
+td,
+th {
+    text-align: center;
+    padding: 10px;
+}
+
+td,
+th {
+    border: 1px solid #000;
+}
+
+
+.nav-items {
+    overflow: hidden;
+    background-color: rgb(49, 33, 33);
+    padding: 10px 10px;
+}
+
+.nav-items a {
+    float: left;
+    display: flex;
+    color: rgb(246, 43, 43);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: #000;
+}
+
+body {
+    background-color: rgb(243, 239, 215);
+}
+
+.index-content {
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer {
+    text-align: right;
+    background-color: rgb(196, 195, 195);
+    padding: 10px;
+    bottom: 1px;
+    left: 1px;
+    right: 1px;
+}
+
+.img-show1 {
+    width: 250px;
+    height: 130px;
+}
+
+.img-show2 {
+    width: 100%;
+    max-width: 200PX;
+}
+
+.img-gallery {
+    margin: 10px;
+    border: 1px solid #000;
+    width: 250px;
+}
+
+.img-desc {
+    padding: 5px;
+    text-align: center;
+}
+
+.img-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    .img-row {
+      flex-direction: column;
+    }
+}
